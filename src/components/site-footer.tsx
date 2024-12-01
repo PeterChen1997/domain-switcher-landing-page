@@ -1,5 +1,5 @@
-import { Globe2, Twitter, ExternalLink } from 'lucide-react';
-import { Separator } from '@/components/ui/separator';
+import { Globe2, Twitter, ExternalLink } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 export function SiteFooter() {
   return (
@@ -15,7 +15,7 @@ export function SiteFooter() {
               Streamline your development workflow with instant domain switching
             </p>
           </div>
-          
+
           <div className="space-y-4">
             <h4 className="font-semibold">Links</h4>
             <div className="space-y-3">
@@ -43,13 +43,18 @@ export function SiteFooter() {
           <div className="space-y-4">
             <h4 className="font-semibold">Resources</h4>
             <div className="space-y-3">
-              <a href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Documentation
-              </a>
-              <a href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="https://github.com/PeterChen1997/domainswitcher"
+                target="_blank"
+                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
                 GitHub Repository
               </a>
-              <a href="#" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <a
+                href="https://github.com/PeterChen1997/DomainSwitcher/commits/master/"
+                target="_blank"
+                className="block text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
                 Release Notes
               </a>
             </div>
@@ -63,8 +68,12 @@ export function SiteFooter() {
             © {new Date().getFullYear()} DomainSwitcher. All rights reserved.
           </div>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-foreground transition-colors">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-foreground transition-colors">
+              Terms of Service
+            </a>
           </div>
         </div>
       </div>
