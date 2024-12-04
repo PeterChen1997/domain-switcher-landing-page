@@ -39,10 +39,16 @@ function App() {
               extension.
             </p>
             <div className="flex gap-4">
-              <Button size="lg" className="gap-2">
-                <Chrome className="w-5 h-5" />
-                Add to Chrome
-              </Button>
+              <a
+                href="https://chromewebstore.google.com/detail/domain-switcher/jhjkkefebkgndpoiolblccljcgipcilp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="gap-2">
+                  <Chrome className="w-5 h-5" />
+                  Add to Chrome
+                </Button>
+              </a>
               <a
                 href="https://github.com/PeterChen1997/domainswitcher"
                 target="_blank"
@@ -184,10 +190,16 @@ function App() {
               Join our growing community of developers who are streamlining
               their workflow with DomainSwitcher.
             </p>
-            <Button size="lg" variant="secondary" className="gap-2">
-              Install Now
-              <ChevronRight className="w-4 h-4" />
-            </Button>
+            <a
+              href="https://chromewebstore.google.com/detail/domain-switcher/jhjkkefebkgndpoiolblccljcgipcilp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" variant="secondary" className="gap-2">
+                Install Now
+                <ChevronRight className="w-4 h-4" />
+              </Button>
+            </a>
           </div>
         </section>
       </main>
